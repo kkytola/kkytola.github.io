@@ -2,7 +2,7 @@
 
 
 
-# Research in pictures
+# Research topics
 
 
 |---|---|---|
