@@ -1,6 +1,7 @@
 | [home](index.md) | [research](research.md) | [teaching](teaching.md) | [publications](publications.md) | [about](about.md) |
 
 
+
 # Research in pictures
 
 <img src="https://user-images.githubusercontent.com/39528102/117210395-47a28b80-ae00-11eb-88e2-b4f50c21fac1.png" alt="conformal field theory" width="30%"> <img src="https://user-images.githubusercontent.com/39528102/117210269-1f1a9180-ae00-11eb-9adc-8d8a756dff44.png" alt="statistical mechanics" width="30%"> <img src="https://user-images.githubusercontent.com/39528102/117211094-402fb200-ae01-11eb-830b-c6b736d19c48.png" alt="discrete complex analysis" width="30%">
