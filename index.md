@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+## Welcome
 
-You can use the [editor on GitHub](https://github.com/kkytola/kkytola.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+Some info here.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Pictures
 
-### Markdown
+Can we put pictures here?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Formatted text
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```lean
+lemma compl_frontier {γ : Type*} [topological_space γ] (A : set γ) :
+  (frontier A)ᶜ = (interior A) ∪ (interior (Aᶜ)) :=
+begin
+  have fact := @closure_eq_compl_interior_compl γ _ Aᶜ , 
+  rw compl_compl at fact ,
+  suffices : frontier A = (interior A)ᶜ ∩ (interior (Aᶜ))ᶜ ,
+  { rw this ,
+    rw compl_inter (interior A)ᶜ (interior (Aᶜ))ᶜ ,
+    repeat {rw compl_compl ,} , } , 
+  rw [←frontier_compl A , ←fact] ,
+  exact diff_eq (closure (Aᶜ)) (interior (Aᶜ)) ,
+end
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kkytola/kkytola.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
