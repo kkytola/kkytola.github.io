@@ -17,4 +17,4 @@
 
 # Research group
 
-A non-trivial group.
+A nontrivial group.
