@@ -4,7 +4,7 @@ Some info here.
 
 ## Links
 
-Link to [publications] and [about].
+Link to [publications|publications.md] and [[about|about.md]].
 
 ## Pictures
 
