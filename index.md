@@ -1,3 +1,4 @@
+
 ## Welcome
 
 Some info here.
@@ -9,6 +10,8 @@ Link to [publications] and [about].
 ## Pictures
 
 Can we put pictures here?
+
+![Dyck_tilings_CIDTf-1](https://user-images.githubusercontent.com/39528102/117204471-022e9000-adf9-11eb-9f4c-c17c5bb64b63.png)
 
 ## Formatted text
 
