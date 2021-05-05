@@ -1,10 +1,13 @@
+| research | [publications](publications.md) | [about](about.md) |
+
+
 ## Welcome
 
 Some info here.
 
 ## Links
 
-Link to [publications](publications.md) and [[about|about.md]].
+Link to [publications](publications.md) and [about](about.md).
 
 ## Pictures
 
