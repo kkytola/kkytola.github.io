@@ -2,6 +2,10 @@
 
 Some info here.
 
+## Links
+
+Link to [publications] and [about].
+
 ## Pictures
 
 Can we put pictures here?
