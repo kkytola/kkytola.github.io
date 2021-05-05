@@ -1,5 +1,5 @@
-| [home](index.md) | [research](research.md) | [teaching](research.md) | [publications](publications.md) | [about](about.md) |
+| [home](index.md) | [research](research.md) | [teaching](teaching.md) | [publications](publications.md) | [about](about.md) |
 
-## About me
+# About me
 
 Just about.
